@@ -17,8 +17,8 @@ Please ensure that the `curl` folder is correctly configured and accessible by t
 Additionally, the following directories and files must be present within your project structure:
 
 
-{PROJECT_SOURCE_DIR}/loadBalancer/curl/curl/lib/libcurl.a
-{PROJECT_SOURCE_DIR}/loadBalancer/curl/curl/lib/libcurl.dll.a
+**{PROJECT_SOURCE_DIR}/loadBalancer/curl/curl/lib/libcurl.a**
+**{PROJECT_SOURCE_DIR}/loadBalancer/curl/curl/lib/libcurl.dll.a**
 
 ## Introduction
 
