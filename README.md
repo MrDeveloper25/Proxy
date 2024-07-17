@@ -1,5 +1,20 @@
 # Proxy System Installation and User Guide
 
+### Setup Required: Installing Curl Library
+
+To ensure proper functionality, you need to place a `curl` folder in two specific locations:
+
+1. **Main Proxy Project Folder:**
+   Place a `curl` folder at the root directory of your Proxy project.
+
+2. **Load Balancer Module:**
+   Additionally, place a `curl` folder within the Load Balancer module directory.
+
+The `curl` folder should contain necessary libraries and files required by the program. This setup is crucial for enabling network operations and ensuring seamless integration with external services.
+
+Please ensure that the `curl` folder is correctly configured and accessible by the respective modules of the Proxy system.
+
+
 ## Introduction
 This program is designed to run on Windows using Winsock. It consists of the following components:
 
@@ -33,6 +48,8 @@ I used CLion to develop this code, but if you use another IDE, please check the 
 
 ## Functionality
 The client connects to a Load Balancer, which then connects to 2 proxies. These proxies send information to a Log Server. The proxies also connect to the internet. A centralized server is implemented to manage all connections on the correct ports.
+
+
 
 ## License
 MrDev25 - All Rights Reserved - 2024
