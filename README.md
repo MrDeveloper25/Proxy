@@ -61,6 +61,8 @@ This proxy system is programmed in C++. I have provided a CMake file to load all
 
 I used CLion to develop this code, but if you use another IDE, please check the `CMakeLists.txt` file in each software module. For example, the Load Balancer has its own `CMakeLists.txt` file, and you might need to modify some settings to make the program work. If you use CLion, you only need to compile the main program, and everything else should work out of the box.
 
+## Only works in windows
+
 ## Functionality
 
 The client connects to a Load Balancer, which then connects to 2 proxies. These proxies send information to a Log Server. The proxies also connect to the internet. A centralized server is implemented to manage all connections on the correct ports.
