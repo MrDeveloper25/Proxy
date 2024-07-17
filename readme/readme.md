@@ -14,17 +14,17 @@ This program is designed to run on Windows using Winsock. It consists of the fol
 Each program component uses a specific port:
 
 - Load Balancer: 3128
-  ![load Balancer][loadBalancer.png]
+
 - Web Filter: 8888 
-  ![web Filter][Filter.png]
+
 - Log Server: 9090
-  ![log Server][logServer.png]
+
 - Proxy: 8192
-  ![Proxy][Proxy.png]
+
 - Web Proxy: 8882
-  ![WebProxy][webProxy.png]
+
 - Centralized Server: 9999
-  ![Centralized Server][Centralized_server.png]
+
 
 ## About the Project
 This proxy system is programmed in C++. I have provided a CMake file to load all the necessary configurations. This is my first major project, and I'm excited to share it with the programming community.
