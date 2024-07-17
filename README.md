@@ -49,8 +49,9 @@ Each program component uses a specific port:
   ![log Server](readme/logServer.png)
 - Proxy: 8192  
   ![Proxy](readme/Proxy.png)
-- Web Proxy: 8882  
-  ![WebProxy](readme/webProxy.png) // This is a prototype of exe file
+- Web Proxy: 8882
+- // This is a prototype of exe file
+  ![WebProxy](readme/webProxy.png) 
 - Centralized Server: 9999  
   ![Centralized Server](readme/Centralized_server.png)
 
