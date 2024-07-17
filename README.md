@@ -36,17 +36,17 @@ This program is designed to run on Windows using Winsock. It consists of the fol
 Each program component uses a specific port:
 
 - Load Balancer: 3128  
-  ![load Balancer](loadBalancer.png)
+  ![load Balancer](readme/loadBalancer.png)
 - Web Filter: 8888  
-  ![web Filter](Filter.png)
+  ![web Filter](readme/Filter.png)
 - Log Server: 9090  
-  ![log Server](logServer.png)
+  ![log Server](readme/logServer.png)
 - Proxy: 8192  
-  ![Proxy](Proxy.png)
+  ![Proxy](readme/Proxy.png)
 - Web Proxy: 8882  
-  ![WebProxy](webProxy.png)
+  ![WebProxy](readme/webProxy.png)
 - Centralized Server: 9999  
-  ![Centralized Server](Centralized_server.png)
+  ![Centralized Server](readme/Centralized_server.png)
 
 ## About the Project
 
